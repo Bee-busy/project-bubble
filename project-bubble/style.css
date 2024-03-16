@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    overflow: hidden;
+}
+.all{
+    display: flex;
+}
+.bubble{
+    background-color: #fff;
+    opacity: 0.4;
+    top: -10%;
+    border-radius: 50%;
+}
+@keyframes bee{
+    0%{transform: translateY(30px) rotateY('360deg'); }
+    100%{transform: translateY(1000px) rotateY('360deg'); }
+}
+.bubble:nth-child(1){
+    animation-name:bee;
+    animation-duration: 50s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    left: 1%;
+    width: 5px;
+    height: 4px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(3){
+    animation-name:bee;
+    animation-duration: 46s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    left: 3%;
+    width: 7px;
+    height: 3px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(5){
+    animation-name:bee;
+    animation-duration: 87s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    left: 5%;
+    width: 10px;
+    height: 6px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(7){
+    animation-name:bee;
+    animation-duration: 70s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    left: 7%;
+    width: 4px;
+    height: 2px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(9){
+    animation-name:bee;
+    animation-duration: 69s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    left: 9%;
+    width: 60px;
+    height: 40px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(11){
+    animation-name:bee;
+    animation-duration:76 s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    left: 11%;
+    width: 16px;
+    height: 13px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(13){
+    animation-name:bee;
+    animation-duration:68 s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    left: 13%;
+    width: 23px;
+    height: 20px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(15){
+    animation-name:bee;
+    animation-duration:76 s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    left: 15%;
+    width: 15px;
+    height: 14px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration:87 s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(17){
+    animation-name:bee;
+    animation-duration: 68s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    left: 17%;
+    width: 28px;
+    height: 24px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(19){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(21){
+    animation-name:bee;
+    animation-duration: 60s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    left: 21%;
+    width: 12px;
+    height: 10px;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
+.bubble:nth-child(){
+    animation-name:bee;
+    animation-duration: s;
+    animation-delay: s;
+    animation-iteration-count: infinite;
+    left: 4;
+    width: 5;
+    height: 4;
+}
